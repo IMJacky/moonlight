@@ -22,7 +22,7 @@ function _initShare() {
       onShareAppMessage: function() {
         return {
           title: '月光账本',
-          path: '/pages/main/index/index',
+          path: '/pages/index/index',
           imageUrl: 'https://img01.yzcdn.cn/vant/cat.jpeg'
         }
       }

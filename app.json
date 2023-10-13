@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/main/index/index",
-    "pages/main/me/index"
+    "pages/index/index",
+    "pages/me/index"
   ],
   "window":{
     "navigationStyle":"custom",
@@ -13,25 +13,17 @@
     "custom": true,
     "list": [
       {
-        "pagePath": "pages/main/index/index",
+        "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
-        "pagePath":  "pages/main/me/index",
+        "pagePath":  "pages/me/index",
         "text": "我的"
       }
     ]
   },
 
-  "subpackages": [
-    {
-      "root": "pages/activity",
-      "pages": [
-        "index/index"
-      ],
-      "independent": true
-    }
-  ],
+  
   "usingComponents": {
     "time": "/components/time/index",
     "svg-icon": "/components/svg-icon/index",

@@ -2,12 +2,12 @@ Component({
   data: {
     active: 0,
     list: [{
-      pagePath: '/pages/main/index/index',
+      pagePath: '/pages/index/index',
       iconPath: './image/home.png',
       selectedIconPath: './image/home_active.png',
       text: '首页'
     }, {
-      pagePath: '/pages/main/me/index',
+      pagePath: '/pages/me/index',
       iconPath: './image/me.png',
       selectedIconPath: './image/me_active.png',
       text: '我的'

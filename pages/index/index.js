@@ -1,7 +1,7 @@
 // const app = getApp()
-import { initTabActive } from '../../../utils/index'
+import { initTabActive } from '../../utils/index'
 import { createStoreBindings } from 'mobx-miniprogram-bindings'
-import { store } from '../../../store/test'
+import { store } from '../../store/test'
 Page({
   data: {
     time: +new Date()
