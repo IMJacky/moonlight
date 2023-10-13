@@ -21,7 +21,7 @@ function _initShare() {
     pageConfig = Object.assign({
       onShareAppMessage: function() {
         return {
-          title: 'weapp-template-默认分享文案',
+          title: '月光账本',
           path: '/pages/main/index/index',
           imageUrl: 'https://img01.yzcdn.cn/vant/cat.jpeg'
         }

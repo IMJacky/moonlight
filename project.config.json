@@ -36,68 +36,55 @@
     "useApiHostProcess": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.14.3",
-  "appid": "wx569d0197e1bc95f6",
-  "projectname": "weapp-template",
-  "debugOptions": {
-    "hidedInDevtools": []
-  },
+  "libVersion": "widelyUsed",
+  "appid": "wx319ba67a02e203aa",
+  "projectname": "moonlight",
   "scripts": {
     "beforeCompile": "npm run dev test001",
-    "beforePreview": "",
     "beforeUpload": "npm run build"
   },
-  "isGameTourist": false,
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "packOptions": {
     "ignore": [
       {
-        "type": "folder",
-        "value": ".vscode"
+        "value": ".vscode",
+        "type": "folder"
       },
       {
-        "type": "file",
-        "value": ".gitignore"
+        "value": ".gitignore",
+        "type": "file"
       },
       {
-        "type": "file",
-        "value": ".eslintrc.js"
+        "value": ".eslintrc.js",
+        "type": "file"
       },
       {
-        "type": "file",
-        "value": "package.json"
+        "value": "package.json",
+        "type": "file"
       },
       {
-        "type": "file",
-        "value": "package-lock.json"
+        "value": "package-lock.json",
+        "type": "file"
       },
       {
-        "type": "regexp",
-        "value": "\\.md$"
+        "value": "\\.md$",
+        "type": "regexp"
       },
       {
-        "type": "regexp",
-        "value": "\\.less$"
+        "value": "\\.less$",
+        "type": "regexp"
       },
       {
-        "type": "regexp",
-        "value": "\\.scss$"
+        "value": "\\.scss$",
+        "type": "regexp"
       }
-    ]
+    ],
+    "include": []
   },
-  "condition": {
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
-    "miniprogram": {
-      "list": []
-    }
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
   }
 }

@@ -1,7 +1,7 @@
 <view class='main-box'>
 
   <van-nav-bar border='{{false}}' fixed placeholder='{{true}}' custom-style='background: #ffffff;'>
-    <view slot='title' class='nav-title'>weapp-template</view>
+    <view slot='title' class='nav-title'>moonlight</view>
   </van-nav-bar>
 
   <computed-example></computed-example>
